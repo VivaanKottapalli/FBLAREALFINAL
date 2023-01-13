@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suburban Biking</title>
+    <link rel="stylesheet" href="shop.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+
+  
+  <nav class="navbar">
+    <img src="blue_logo.png" alt="" class="logo">
+    <a href="index.html" id="navbar__logo">Suburban Biking</a>
+    <div class="navbar__container">
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="about.html" class="navbar__links">About Us</a>
+        </li>
+        <li class="navbar__item">
+          <a href="contact.html" class="navbar__links">Contact</a>
+        </li>
+        <li class="navbar__btn"><a href="shop.html" class="button">Shop Now</a></li>
+        </li>
+
+        <li class="navbar__shop navbar__links" id="cart-icon">Cart</li> 
+        
+      </ul>
+    </div>
+  </nav>
+
+ <!--
+        <div class="nav container">
+            <a href="#" class="logo">FBLA</a>
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <h4>The "Buy Now" button will not work until you add something to your cart</h4>
+                <div class="scrollbox">
+                    <div class="scrollbox-inner">
+
+                    </div>
+                </div>
+
+                <div class="cart-content">
+
+            
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <a href="form.html">
+                <button class="button">Buy Now</button>
+                </a>
+         <!--      <li class="btn"><a href="/form.html" class="button">Buy Now</a></li> -->
+
+                <i class="bx bx-x" id="close-cart"></i>
+
+            </div>
+        </div>
+
+
+    <section class="shop container">
+        <h2 class="section-title">Current Products</h2>
+
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="blue_led_helmet.jpg" alt="" class="product-img">
+                <h2 class="product-title">Blue LED Helmet</h2>
+                <span class="price">$39.99</span>
+              <!-- <i class="bx bx-shopping-bag add-cart"></i> --> 
+            </div>
+
+            <div class="product-box">
+                <img src="pink_led_helmet.jpg" alt="" class="product-img">
+                <h2 class="product-title">Pink LED Helmet</h2>
+                <span class="price">$39.99</span>
+                <!-- <i class="bx bx-shopping-bag add-cart"></i> --> 
+            </div>
+        </div>
+    </section>
+
+    <script src="shop.js"></script>
+
+</body>
+</html>
